@@ -22,7 +22,7 @@ for _ in range(m):
     # a번 노드에서 b번 노드로 가는 비용이 c라는 의미
     graph[a].append((b, c))
 
-# 방문하지 않은 노드 중에서, 가장 최단 거리가 짧은 노드의 번호를 반환
+# 방문하지 않은 노드 중에서, 가장 최단거리가 짧은 노드의 번호를 반환
 def getSmallestNode():
     min_value = INF
     index = 0
