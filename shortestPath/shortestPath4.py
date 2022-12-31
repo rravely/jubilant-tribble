@@ -2,7 +2,7 @@
 
 INF = int(1e9)
 
-n, m = map(int, input().split()) # 회사의 개수와 경로의 개수
+n, m = map(int, input().split()) # 회사의 개수와 경로의 개수 
 graph = [[INF] * (n + 1) for _ in range(n + 1)] # 2차원 리스트 무한으로 초기화
 
 # 자기 자신에서 자기 자신으로 가는 비용은 0으로 초기화 
