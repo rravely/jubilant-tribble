@@ -6,7 +6,7 @@ import sys
 input = sys.stdin.readline
 INF = int(1e9)
 
-# 도시의 개수 N, 통로의 개수 M, 메시지를 보내고자 하는 도시 C 
+# 도시의 개수 N, 통로의 개수 M, 메시지를 보내고자 하는 도시 C  
 n, m, c = map(int, input().split())
 # 각 노드에 연결되어 있는 노드에 대한 정보를 담는 리스트를 만들기 
 graph = [[] for i in range(n + 1)]
