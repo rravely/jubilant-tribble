@@ -14,7 +14,7 @@ time = [0] * (n + 1)
 
 # 방향 그래프의 모든 간선 정보를 입력받기
 for i in range(1, n + 1):
-    data = list(map(int, input().split()))
+    data = list(map(int, input().split())) 
     time[i] = data[0]
     for x in data[1:-1]:    
         indegree[i] += 1
