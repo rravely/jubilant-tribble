@@ -8,7 +8,7 @@ def count_by_range(array, left_value, right_value):
 N, x = map(int, input().split())
 data = list(map(int, input().split()))
 
-count = count_by_range(data, x, x)
+count = count_by_range(data, x, x) 
 
 if count == 0:
     print(-1)
