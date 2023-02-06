@@ -5,7 +5,7 @@ slist = []
 sum = 0
 
 for s in string:
-    if 65 <= ord(s) <= 90: # 또는 s.isalpha() 
+    if 65 <= ord(s) <= 90: # 또는 s.isalpha()  
         slist.append(s)
     else:
         sum += int(s)
