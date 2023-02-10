@@ -1,4 +1,4 @@
-# 탑승구  
+# 탑승구
 
 g = int(input())
 p = int(input())
